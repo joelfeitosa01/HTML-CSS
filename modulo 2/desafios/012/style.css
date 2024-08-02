@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vp;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header h1 {
+    padding: 50px;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding: 10px;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
