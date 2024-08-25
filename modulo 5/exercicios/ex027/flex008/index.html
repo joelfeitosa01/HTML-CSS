@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex008</title>
+    <style>
+        .conteiner {
+            background-color: lightsalmon;
+            display: flex;
+            align-items: flex-start;
+            height: 400px;
+        }
+
+        .item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        #I1 {
+            align-self: auto;
+        }
+
+        #I2 {
+            align-self: flex-end;
+        }
+
+        #I3 {
+            align-self: center;
+        }
+
+        #I5 {
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div id="I1" class="item">A</div>
+        <div id="I2" class="item">B</div>
+        <div id="I3" class="item">C</div>
+        <div id="I4" class="item">D</div>
+        <div id="I5" class="item">E</div>
+        <div id="I6" class="item">F</div>
+        <div id="I7" class="item">G</div>
+
+    </div>
+</body>
+</html>
